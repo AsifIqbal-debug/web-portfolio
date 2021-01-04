@@ -2,6 +2,8 @@ body
 {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
+    padding-bottom: 5%;
+    
 }
 h1
 {
@@ -66,10 +68,12 @@ section
     height: 80%;
 }
 .experience-area{
+    overflow:hidden;
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
     background-color: white;
+    
 }
 #fullstack{
     border-left: 7px solid;
@@ -85,5 +89,7 @@ section
 
 }
 footer p{
+    padding-bottom: 10px;
     text-align: center;
+    
 }
